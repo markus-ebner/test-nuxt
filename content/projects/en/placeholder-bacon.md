@@ -1,0 +1,4 @@
+---
+category: animals
+title: Beears
+---
