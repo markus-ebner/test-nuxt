@@ -1,4 +1,0 @@
----
-category: animals
-title: Beassf
----
