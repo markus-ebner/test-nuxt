@@ -5,10 +5,25 @@ publish_mode: editorial_workflow
 backend:
   name: git-gateway
   branch: master
+  repo: markus-ebner/test-nuxt
   squash_merges: true
 
 media_folder: static/img
 public_folder: /img
+
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, de]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
@@ -49,6 +64,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
   - name: 'projects'
+    i18n: true
     label: 'Projects'
     label_singular: 'Project'
     folder: 'content/projects'
@@ -62,13 +78,15 @@ collections:
           name: 'category',
           widget: 'select',
           default: 'animals',
+          i18n: true,
           options: [{ label: 'Animals', value: 'animals' }, { label: 'Food', value: 'food' }],
         }
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, allow_multiple: false }
-      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true, required: true }
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+      - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, i18n: true, allow_multiple: false }
+      - { label: 'Content', name: 'body', widget: 'markdown', i18n: true, required: false }
       - {
+          i18n: true,
           label: 'Gallery',
           name: 'gallery',
           widget: 'list',
