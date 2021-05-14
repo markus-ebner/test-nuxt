@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
-  "version": "2.0.1",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <sven@svenparker.com> (https://svenparker.com)",
+  "name": "weinmacher-nick",
+  "version": "0.0.1",
+  "description": "Website about the wine maker Nick based in Austria",
+  "author": "Markus Ebner",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/knogobert/ntn-boilerplate#readme"
+    "url": "https://github.com/markus-ebner/weinmacher-nick"
   },
   "license": "MIT",
   "dependencies": {
