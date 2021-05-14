@@ -30,10 +30,21 @@
 
 <script>
 export default {
-  async asyncData({ $content, params, error }) {
+  data(){
+    return {locale: this.$i18n.locale}
+  }, 
+  async asyncData({ i18n, $content, params, error }) {
+
     let post;
     try {
       post = await $content("projects", params.project).fetch();
+      if (i18n.locale === 'de') {
+        post = {...post.de};
+      } else {
+        post = {...post.en};
+      }
+      console.log(post);
+
     } catch (e) {
       error({ message: "Project not found" });
     }

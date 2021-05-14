@@ -79,7 +79,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', 'nuxt-purgecss', 'nuxt-i18n',],
   /*
    ** Build configuration
    */
@@ -143,6 +143,24 @@ export default {
       lang: process.env.lang,
       ogHost: process.env.URL,
       ogImage: '/preview.jpg'
+    }
+  },
+  i18n: {
+    locales: ['en', 'nl', 'de'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          welcome: 'Welcome'
+        },
+        nl: {
+          welcome: 'Heklo'
+        },
+        de: {
+          welcome: 'Hallo'
+        }
+      }
     }
   }
 }

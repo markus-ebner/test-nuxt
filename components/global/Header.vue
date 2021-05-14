@@ -5,7 +5,8 @@
         <nuxt-link class="btn block" to="/">Home</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/blog">Blog</nuxt-link>
+        <nuxt-link v-if="$i18n.locale === 'en'" class="btn block" to="/blog">Blog</nuxt-link>
+        <nuxt-link v-else class="btn block" to="/de/blog">BLOG</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
         <nuxt-link class="btn block" to="/projects">Projects</nuxt-link>
