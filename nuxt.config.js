@@ -1,10 +1,10 @@
-import path from 'path'
-import postcssImport from 'postcss-import'
-import postcssNesting from 'postcss-nesting'
-import postcssPresetEnv from 'postcss-preset-env'
-import postcssEasingGradients from 'postcss-easing-gradients'
-import * as SITE_INFO from './content/site/info.json'
-import { COLOR_MODE_FALLBACK } from './utils/globals.js'
+import path from 'path';
+import postcssImport from 'postcss-import';
+import postcssNesting from 'postcss-nesting';
+import postcssPresetEnv from 'postcss-preset-env';
+import postcssEasingGradients from 'postcss-easing-gradients';
+import * as SITE_INFO from './content/site/info.json';
+import { COLOR_MODE_FALLBACK } from './utils/globals.js';
 
 export default {
   target: 'static',
@@ -79,7 +79,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss', 'nuxt-i18n',],
+  modules: ['@nuxt/content', 'nuxt-purgecss', 'nuxt-i18n'],
   /*
    ** Build configuration
    */
@@ -146,14 +146,11 @@ export default {
     }
   },
   i18n: {
-    locales: ['en', 'nl', 'de'],
-    defaultLocale: 'en',
+    locales: ['nl', 'de'],
+    defaultLocale: 'de',
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'de',
       messages: {
-        en: {
-          welcome: 'Welcome'
-        },
         nl: {
           welcome: 'Heklo'
         },
@@ -163,4 +160,4 @@ export default {
       }
     }
   }
-}
+};
