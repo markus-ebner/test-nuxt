@@ -9,7 +9,7 @@
         <nuxt-link class="ml-2" v-for="route of routes" :key="route.name" :to="localePath(route.route)">{{
           route.name
         }}</nuxt-link>
-        <nuxt-link class="ml-2" :to="localePath('/admin')" target="_blank">Admin</nuxt-link>
+        <a href="/admin" class="ml-2" target="_blank">Admin</a>
       </nav>
 
       <p class="text-center text-base text-gray-300">
