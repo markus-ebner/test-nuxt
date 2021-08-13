@@ -11,6 +11,7 @@
         }}</nuxt-link>
         <a href="/admin" class="ml-2" target="_blank">Admin</a>
       </nav>
+      <a href="/admin" class="ml-2">Admin</a>
 
       <p class="text-center text-base text-gray-300">
         &copy; 2021 Weinmacher Nick

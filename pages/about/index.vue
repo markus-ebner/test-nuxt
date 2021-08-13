@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section v-if="posts" class="w-full max-w-5xl mx-auto">
+    <section class="w-full max-w-5xl mx-auto">
       <h1 class="title">{{ aboutUs.title }}</h1>
     </section>
   </main>
@@ -11,10 +11,11 @@ export default {
   data() {
     return { locale: this.$i18n.locale };
   },
-  async asyncData({ i18n, $content, params, error }) {
+  async asyncData({ i18n, $content, error }) {
     let aboutUs;
     try {
       aboutUs = await $content('about').fetch();
+      console.log(aboutUs);
     } catch (e) {
       error({ message: 'Projects not found' });
     }
