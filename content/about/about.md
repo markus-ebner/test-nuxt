@@ -1,11 +1,8 @@
 ---
-nl:
-title: Beer
-description: Biesfd
-body: Beer
-
 de:
-title: Bier
-description: asdfsadf
-body: Bier
+  title: Über uns
+  cover: /img/FriedlacherKirchbichl.jpg
+nl:
+  title: Over ons
+  cover: /img/FriedlacherKirchbichl.jpg
 ---
