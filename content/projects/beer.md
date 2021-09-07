@@ -1,16 +1,44 @@
 ---
-nl:
-  category: food
-  title: Beer
-  description: Biesfd
-  body: Beer
-  gallery:
-    - /img/ntn-boilerplate-preview-dark.png
 de:
-  category: food
-  title: Bier
-  description: asdfsadf
-  body: Bier
+  category: animals
+  title: Bronner
+  description: ""
+  body: >-
+    Allgemeines:   Ist eine neu gezüchtete PilzWiderstandsfähige (PiWi)
+    Weissweinsorte. Und ist eine Kreuzung von Merling und Gm 6494. Sie entstammt
+    der Züchtungsarbeit Norbert Beckers in 1975. Zu Ehren des Badischen
+    Weinpioniers und Apotheker Johann Philipp Bronner.
+
+
+    * **Traube**: Die mittelgrossen Trauben sind oft geschultert und mittel bis stark bepackt. Das Traubengewicht liegt nicht selten um die 280-300 Gram.
+
+    * **Resistenz**: sehr gute Resistenz gegen Peronospora, Oidium und Botrytis.
+
+    * **Wein**: Die Weine des Bronners zählen eher zu den neutralen Typen. Sie Zeigen Ähnlichkeit zu Weissburgunder mit Aromen nach Birne, heimischer Aprikose und Quitte bei milder Säure. Gute Qualitäten zeichnen sich durch eine hohe Reife und ein Moderates Ertragsniveau aus.
+
+    * **Klon**: Fr 320
   gallery:
     - /img/ntn-boilerplate-preview-light.png
+  cover: https://weinmacher-nick.webnode.at/_files/200000014-7d1617d163/450/Solaris.jpg?ph=3633cc83ac
+nl:
+  category: animals
+  title: Bronner
+  description: ""
+  body: >-
+    Allgemeines:   Ist eine neu gezüchtete PilzWiderstandsfähige (PiWi)
+    Weissweinsorte. Und ist eine Kreuzung von Merling und Gm 6494. Sie entstammt
+    der Züchtungsarbeit Norbert Beckers in 1975. Zu Ehren des Badischen
+    Weinpioniers und Apotheker Johann Philipp Bronner.
+
+
+    * **Traube**: Die mittelgrossen Trauben sind oft geschultert und mittel bis stark bepackt. Das Traubengewicht liegt nicht selten um die 280-300 Gram.
+
+    * **Resistenz**: sehr gute Resistenz gegen Peronospora, Oidium und Botrytis.
+
+    * **Wein**: Die Weine des Bronners zählen eher zu den neutralen Typen. Sie Zeigen Ähnlichkeit zu Weissburgunder mit Aromen nach Birne, heimischer Aprikose und Quitte bei milder Säure. Gute Qualitäten zeichnen sich durch eine hohe Reife und ein Moderates Ertragsniveau aus.
+
+    * **Klon**: Fr 320
+  gallery:
+    - /img/ntn-boilerplate-preview-dark.png
+  cover: https://weinmacher-nick.webnode.at/_files/200000014-7d1617d163/450/Solaris.jpg?ph=3633cc83ac
 ---
