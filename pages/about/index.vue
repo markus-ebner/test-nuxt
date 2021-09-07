@@ -1,9 +1,14 @@
 <template>
-  <main>
-    <section class="w-full max-w-5xl mx-auto">
-      <h1 class="title">{{ aboutUs.title }}</h1>
-    </section>
-  </main>
+  <div>
+    <img v-if="aboutUs.cover" class="cover-image" :src="aboutUs.cover" />
+    <main>
+      <section v-if="aboutUs" class="w-full max-w-5xl mx-auto">
+        <h1 class="title">{{ aboutUs.title }}</h1>
+        <nuxt-content :document="{ body: aboutUs.body }" />
+        <!--      <nuxt-content class="mt-1 mb-4 text-primary-600 dark:text-primary-400">{{ aboutUs.body }}</nuxt-content>-->
+      </section>
+    </main>
+  </div>
 </template>
 
 <script>
@@ -15,19 +20,18 @@ export default {
     let aboutUs;
     try {
       aboutUs = await $content('about').fetch();
-      console.log(aboutUs);
-    } catch (e) {
-      error({ message: 'Projects not found' });
-    }
-    try {
-      aboutUs = await $content('about').fetch();
-      if (i18n.locale === 'de') {
-        aboutUs = { ...aboutUs.de };
-      } else {
-        aboutUs = { ...aboutUs.nl };
+      console.dir(aboutUs);
+      if (aboutUs.length) {
+        if (i18n.locale === 'de') {
+          aboutUs = { ...aboutUs[0].de };
+          console.log(aboutUs);
+        } else {
+          aboutUs = { ...aboutUs[0].nl };
+        }
       }
+      console.log(aboutUs.body);
     } catch (e) {
-      error({ message: 'Project not found' });
+      error({ message: 'About us not found' });
     }
     return { aboutUs };
   }

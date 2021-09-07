@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-white">
     <div class="flex items-center justify-center">
-      <div class="absolute top-5 left-0 sm:hidden">
+      <div class="absolute menu-button-container left-0 sm:hidden">
         <!-- Mobile menu button-->
         <button
           @click="open = !open"
@@ -36,9 +36,9 @@
       <div class="flex items-center justify-center">
         <div class="flex align-center items-center m-2">
           <nuxt-link :to="localePath('/')" class="flex items-center">
-            <img class="block lg:hidden h-24" src="/icon.png" alt="Workflow" />
-            <img class="hidden lg:block h-24" src="/icon.png" alt="Workflow" />
-            <span class="hidden lg:block ml-2 font-black uppercase">Weinmacher Nick</span>
+            <img class="block lg:hidden h-24 z-10 bg-white logo" src="/icon.png" alt="Workflow" />
+            <img class="hidden lg:block h-24 z-10 bg-white logo" src="/icon.png" alt="Workflow" />
+            <span class="hidden lg:block ml-3 font-black uppercase">Weinmacher Nick</span>
           </nuxt-link>
         </div>
         <div class="hidden sm:block sm:ml-6">
@@ -56,18 +56,20 @@
       </div>
     </div>
 
-    <div v-if="open" class="sm:hidden" id="mobile-menu">
-      <div class="px-2 pt-2 pb-3 space-y-1">
-        <nuxt-link
-          @click="open = false"
-          class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
-          v-for="route of routes"
-          :key="route.name"
-          :to="localePath(route.route)"
-          >{{ route.name }}</nuxt-link
-        >
+    <transition name="fade">
+      <div v-if="open" class="sm:hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <nuxt-link
+            @click="open = false"
+            class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+            v-for="route of routes"
+            :key="route.name"
+            :to="localePath(route.route)"
+            >{{ route.name }}</nuxt-link
+          >
+        </div>
       </div>
-    </div>
+    </transition>
   </nav>
 </template>
 
@@ -88,4 +90,23 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped></style>
+<style lang="postcss" scoped>
+.logo {
+  border-radius: 6rem;
+  opacity: 0.9;
+}
+.menu-button-container {
+  top: 1.2rem;
+}
+#mobile-menu {
+  margin-top: -35px;
+  margin-bottom: 35px;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+</style>
