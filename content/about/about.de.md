@@ -1,5 +1,5 @@
 ---
-title: Über Uns
+title: Über uns
 cover: /img/FriedlacherKirchbichl.jpg
 ---
 ## **Wer sind wir?**

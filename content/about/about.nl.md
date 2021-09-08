@@ -1,4 +1,5 @@
 ---
+title: Over ons
 cover: /img/FriedlacherKirchbichl.jpg
 ---
 ## **Even voorstellen**
