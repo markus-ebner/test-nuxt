@@ -38,18 +38,18 @@
           <nuxt-link :to="localePath('/')" class="flex items-center">
             <img class="block lg:hidden h-24 z-10 bg-white logo" src="/icon.png" alt="Workflow" />
             <img class="hidden lg:block h-24 z-10 bg-white logo" src="/icon.png" alt="Workflow" />
-            <span class="hidden lg:block ml-3 font-black uppercase">Weinmacher Nick</span>
+            <span class="hidden lg:block ml-3 font-black uppercase name-header">Weinmacher Nick</span>
           </nuxt-link>
         </div>
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
             <nuxt-link
               @click="open = false"
-              class="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+              class="px-3 rounded-b-none rounded-t-md py-2 text-sm font-medium header-link"
               v-for="route of routes"
-              :key="route.name"
+              :key="route.keyName"
               :to="localePath(route.route)"
-              >{{ route.name }}</nuxt-link
+              >{{ $t(`header.${route.keyName}`) }}</nuxt-link
             >
           </div>
         </div>
@@ -61,11 +61,11 @@
         <div class="px-2 pt-2 pb-3 space-y-1">
           <nuxt-link
             @click="open = false"
-            class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+            class="block rounded-b-none rounded-t-md px-3 py-2 text-base font-medium header-link"
             v-for="route of routes"
-            :key="route.name"
+            :key="route.keyName"
             :to="localePath(route.route)"
-            >{{ route.name }}</nuxt-link
+            >{{ $t(`header.${route.keyName}`) }}</nuxt-link
           >
         </div>
       </div>
@@ -80,10 +80,10 @@ export default {
     return {
       open: false,
       routes: [
-        { name: 'Über uns', route: '/about' },
-        { name: 'Rebsorten', route: '/projects' },
-        { name: 'News', route: '/blog' },
-        { name: 'Kontakt', route: '/contact' }
+        { keyName: 'aboutUs', route: '/about' },
+        { keyName: 'grapeVarieties', route: '/projects' },
+        { keyName: 'news', route: '/blog' },
+        { keyName: 'contact', route: '/contact' }
       ]
     };
   }
@@ -94,6 +94,7 @@ export default {
 .logo {
   border-radius: 6rem;
   opacity: 0.9;
+  box-shadow: 0 -1px 2px var(--color-primary-200);
 }
 .menu-button-container {
   top: 1.2rem;
@@ -108,5 +109,14 @@ export default {
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+.header-link {
+  margin-bottom: -5px;
+  &:hover {
+    @apply bg-primary-200 text-white;
+  }
+}
+.name-header {
+  margin-bottom: -5px;
 }
 </style>

@@ -2,7 +2,7 @@
 title: Über uns
 cover: /img/FriedlacherKirchbichl.jpg
 ---
-## **Wer sind wir?**
+
 
 Nick und Hanni Gerretsen. Hanni eine gebürtige Kärntnerin und ich bin Niederländer. Wir wohnten und Aarbeiteten in Den Haag, eine holländische Stadt an der Nordsee, wo Nick geboren ist. Nach 40 Jahren Lebensmittelpunkt in Den Haag sind wir 2019 wieder nach Kärnten gezogen. **Das Interesse zum Wein wurde bereits vor vielen Jahren geweckt.** Berufsmässig organisierten wir unter anderem Weinreisen für die Supermarktbranche und im privaten Umfeld überzeugten uns unsere französische Freunde vom edlen Tropfen. Erst der perfekte Wein macht ein genussvolles Essen vollkommen, das zelebrierten wir beinahe wöchentlich.
 

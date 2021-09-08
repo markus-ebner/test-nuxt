@@ -152,10 +152,40 @@ export default {
       fallbackLocale: 'de',
       messages: {
         nl: {
-          welcome: 'Heklo'
+          home: {
+            latestNews: 'Laatste nieuws',
+            wineKirchbichl: 'Wijn van Friedlacher Kirchbichl'
+          },
+          header: {
+            aboutUs: 'Over ons',
+            news: 'Nieuws',
+            contact: 'Contact',
+            grapeVarieties: 'Druivensoorten'
+          },
+          grapeVarieties: {
+            title: 'Druivensoorten'
+          },
+          news: {
+            title: 'Nieuws'
+          }
         },
         de: {
-          welcome: 'Hallo'
+          home: {
+            latestNews: 'Letzte News',
+            wineKirchbichl: 'Wein vom Friedlacher Kirchbichl'
+          },
+          header: {
+            aboutUs: 'Über uns',
+            news: 'News',
+            contact: 'Kontakt',
+            grapeVarieties: 'Rebsorten'
+          },
+          grapeVarieties: {
+            title: 'Rebsorten'
+          },
+          news: {
+            title: 'News'
+          }
         }
       }
     }

@@ -33,7 +33,6 @@ export default {
       } else {
         post = { ...post.nl };
       }
-      console.log(post);
     } catch (e) {
       error({ message: 'Project not found' });
     }
