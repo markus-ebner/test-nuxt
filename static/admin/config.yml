@@ -75,9 +75,10 @@ collections:
           label: "Description",
           name: "description",
           widget: "string",
+          i18n: true,
           required: false,
         }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false, i18n: true }
   - name: "varieties"
     i18n: true
     label: "Grape varieties"

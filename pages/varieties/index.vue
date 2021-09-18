@@ -12,10 +12,11 @@
 
 <script>
 export default {
-  async asyncData({ $content, error }) {
+  async asyncData({ i18n, $content, error }) {
     let posts;
     try {
       posts = await $content('varieties').fetch();
+      console.log(posts);
     } catch (e) {
       error({ message: 'Grape varieties not found' });
     }
