@@ -60,9 +60,9 @@ collections:
                 ],
             }
           # - { label: Site Email, name: siteemail, widget: string, required: false }
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: "news"
+    label: "News"
+    folder: "content/news"
     create: true
     format: "frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -77,15 +77,15 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "projects"
+  - name: "grape-varieties"
     i18n: true
-    label: "Projects"
+    label: "Grape varieties"
     label_singular: "Project"
-    folder: "content/projects"
+    folder: "content/grape-varieties"
     create: true
     format: "frontmatter"
     slug: "{{slug}}"
-    preview_path: "projects/{{slug}}"
+    preview_path: "grape-varieties/{{slug}}"
     fields:
       - {
           label: "Title",
