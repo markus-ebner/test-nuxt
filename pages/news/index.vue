@@ -4,7 +4,7 @@
     <main>
       <section v-if="posts" class="w-full max-w-5xl mx-auto">
         <h1 class="title">{{ $t('news.title') }}</h1>
-        <posts post-type="blog" :amount="10" />
+        <posts post-type="news" :amount="10" />
       </section>
     </main>
   </div>
@@ -15,9 +15,9 @@ export default {
   async asyncData({ $content, error }) {
     let posts;
     try {
-      posts = await $content('blog').fetch();
+      posts = await $content('news').fetch();
     } catch (e) {
-      error({ message: 'Blog posts not found' });
+      error({ message: 'News entries not found' });
     }
     return { posts };
   }

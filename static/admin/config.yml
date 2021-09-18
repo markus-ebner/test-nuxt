@@ -50,16 +50,17 @@ collections:
               hint: "This is used as descriptive text for links that link to this site",
             }
           - {
-              label: Site Language,
-              name: sitelang,
-              widget: string,
-              pattern:
-                [
-                  "^[a-z]{2}([-])?([A-Za-z]{2})?$",
-                  'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")',
-                ],
-            }
-          # - { label: Site Email, name: siteemail, widget: string, required: false }
+            label: Site main mail address,
+            name: siteMailAddress,
+            widget: string,
+            hint: "This is used for contacting you via mail",
+          }
+          - {
+            label: Site main phone number,
+            name: sitePhoneNumber,
+            widget: string,
+            hint: "This is used for contacting you via phone",
+          }
   - name: "news"
     label: "News"
     folder: "content/news"
@@ -77,15 +78,15 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "grape-varieties"
+  - name: "varieties"
     i18n: true
     label: "Grape varieties"
     label_singular: "Project"
-    folder: "content/grape-varieties"
+    folder: "content/varieties"
     create: true
     format: "frontmatter"
     slug: "{{slug}}"
-    preview_path: "grape-varieties/{{slug}}"
+    preview_path: "varieties/{{slug}}"
     fields:
       - {
           label: "Title",

@@ -1,6 +1,5 @@
 ---
 de:
-  category: animals
   title: Souvignier Gris
   body: >-
     Allgemeines:   Ist eine neu gezüchtete PilzWiderstandsfähige (PiWi)

@@ -21,13 +21,10 @@
 
 <script>
 export default {
-  data() {
-    return { locale: this.$i18n.locale };
-  },
   async asyncData({ i18n, $content, params, error }) {
     let post;
     try {
-      post = await $content('projects', params.project).fetch();
+      post = await $content('varieties', params.variety).fetch();
       if (i18n.locale === 'de') {
         post = { ...post.de };
       } else {

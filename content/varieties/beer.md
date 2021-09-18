@@ -1,8 +1,7 @@
 ---
 de:
-  category: animals
   title: Bronner
-  description: ""
+  description: ''
   body: >-
     Allgemeines:   Ist eine neu gezüchtete PilzWiderstandsfähige (PiWi)
     Weissweinsorte. Und ist eine Kreuzung von Merling und Gm 6494. Sie entstammt
@@ -23,7 +22,7 @@ de:
 nl:
   category: animals
   title: Bronner
-  description: ""
+  description: ''
   body: >-
     Allgemeines:   Ist eine neu gezüchtete PilzWiderstandsfähige (PiWi)
     Weissweinsorte. Und ist eine Kreuzung von Merling und Gm 6494. Sie entstammt

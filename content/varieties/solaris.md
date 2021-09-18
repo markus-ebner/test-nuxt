@@ -1,6 +1,5 @@
 ---
 de:
-  category: animals
   title: Solaris
   body: >-
     Allgemeines: Ebenfalls aus dem Jahr 1975 stammt die Sorte Solaris aus dem

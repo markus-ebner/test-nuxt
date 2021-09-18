@@ -81,7 +81,7 @@ export default {
       open: false,
       routes: [
         { keyName: 'aboutUs', route: '/about' },
-        { keyName: 'grapeVarieties', route: '/grape-varieties' },
+        { keyName: 'grapeVarieties', route: '/varieties' },
         { keyName: 'news', route: '/news' },
         { keyName: 'contact', route: '/contact' }
       ]
