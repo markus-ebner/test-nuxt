@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="cover-image" :src="'img/FriedlacherKirchbichl.jpg'" />
+    <img class="cover-image" :src="'/img/FriedlacherKirchbichl.jpg'" />
     <main>
       <section class="w-full max-w-5xl mx-auto">
         <h1 class="title">{{ $t('contact.title') }}</h1>

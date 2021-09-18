@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="cover-image" :src="'img/FriedlacherKirchbichl.jpg'" />
+    <img class="cover-image" :src="'/img/FriedlacherKirchbichl.jpg'" />
     <main>
       <section class="self-center flex flex-col flex-1 items-center justify-center">
         <h1 class="title text-center">{{ siteInfos.sitename || 'Weinmacher Nick' }}</h1>
