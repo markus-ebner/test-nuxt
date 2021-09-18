@@ -167,6 +167,12 @@ export default {
           },
           news: {
             title: 'Nieuws'
+          },
+          contact: {
+            title: 'Contact details'
+          },
+          impressum: {
+            title: 'Bedrijfsgegevens'
           }
         },
         de: {
@@ -185,6 +191,12 @@ export default {
           },
           news: {
             title: 'News'
+          },
+          contact: {
+            title: 'Kontaktdaten'
+          },
+          impressum: {
+            title: 'Impressum'
           }
         }
       }
