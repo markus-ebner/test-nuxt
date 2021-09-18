@@ -71,7 +71,7 @@ collections:
     # editor:
     #   preview: true
     fields:
-      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Title", name: "title", widget: "string", required: true, i18n: true }
       - {
           label: "Description",
           name: "description",
