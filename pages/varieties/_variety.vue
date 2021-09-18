@@ -25,11 +25,6 @@ export default {
     let post;
     try {
       post = await $content('varieties', params.variety).fetch();
-      if (i18n.locale === 'de') {
-        post = { ...post.de };
-      } else {
-        post = { ...post.nl };
-      }
     } catch (e) {
       error({ message: 'Project not found' });
     }

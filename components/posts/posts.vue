@@ -1,7 +1,7 @@
 <template>
   <ul v-if="posts.length > 0" class="cards">
     <li v-for="(post, index) in posts" :key="index">
-      <nuxt-link :to="`${postType}/${post.slug}`" class="card card--clickable">
+      <nuxt-link :to="localePath({ path: `${postType}/${post.slug}` })" class="card card--clickable">
         <template v-if="postType === 'varieties'">
           <span class="flex-1">
             <h3 class="card-title">{{ post.title }}</h3>
@@ -86,8 +86,9 @@ export default {
       const date = new Date(dateString);
       return date.toLocaleDateString(process.env.lang) || '';
     },
-    async fetchPosts(postType = this.postType, amount = this.amount, sortBy = this.sortBy) {
+    async fetchPosts(postType = this.postType, amount = this.amount, sortBy = this.sortBy, i18n = this.$i18n) {
       return this.$content(postType)
+        .where({ slug: { $contains: `.${i18n.locale || 'de'}` } })
         .sortBy(sortBy.key, sortBy.direction)
         .limit(amount)
         .fetch()

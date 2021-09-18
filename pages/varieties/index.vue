@@ -16,7 +16,6 @@ export default {
     let posts;
     try {
       posts = await $content('varieties').fetch();
-      console.log(posts);
     } catch (e) {
       error({ message: 'Grape varieties not found' });
     }

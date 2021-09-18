@@ -16,7 +16,6 @@ export default {
     let posts;
     try {
       posts = await $content('news').fetch();
-      console.log(posts);
     } catch (e) {
       error({ message: 'News entries not found' });
     }
