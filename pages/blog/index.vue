@@ -1,10 +1,13 @@
 <template>
-  <main>
-    <section v-if="posts" class="w-full max-w-5xl mx-auto">
-      <h1 class="title">{{ $t('news.title') }}</h1>
-      <posts post-type="blog" :amount="10" />
-    </section>
-  </main>
+  <div>
+    <img class="cover-image" :src="'img/FriedlacherKirchbichl.jpg'" />
+    <main>
+      <section v-if="posts" class="w-full max-w-5xl mx-auto">
+        <h1 class="title">{{ $t('news.title') }}</h1>
+        <posts post-type="blog" :amount="10" />
+      </section>
+    </main>
+  </div>
 </template>
 
 <script>

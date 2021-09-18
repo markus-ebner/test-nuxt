@@ -53,7 +53,7 @@
             <a href="https://twitter.com/EbnerMarkus49">Ebner Markus</a> (<a
               href="mailto:ebner.markus94@gmail.com?subject=Website Weinmacher Nick"
               >ebner.markus94@gmail.com</a
-            >)<br />
+            >)
           </p>
         </div>
       </section>
