@@ -160,7 +160,8 @@ export default {
             aboutUs: 'Over ons',
             news: 'Nieuws',
             contact: 'Contact',
-            grapeVarieties: 'Druivensoorten'
+            grapeVarieties: 'Druivensoorten',
+            impressum: 'Bedrijfsgegevens'
           },
           grapeVarieties: {
             title: 'Druivensoorten'
@@ -184,7 +185,8 @@ export default {
             aboutUs: 'Über uns',
             news: 'News',
             contact: 'Kontakt',
-            grapeVarieties: 'Rebsorten'
+            grapeVarieties: 'Rebsorten',
+            impressum: 'Impressum'
           },
           grapeVarieties: {
             title: 'Rebsorten'

@@ -1,11 +1,10 @@
 <template>
   <main>
     <section v-if="post">
-      <nav class="mb-8" aria-label="go back">
-        <router-back class="block" />
-      </nav>
-
       <article>
+        <nav class="mb-8" aria-label="go back">
+          <router-back class="block" />
+        </nav>
         <h5
           v-if="post.createdAt"
           class="inline-block py-1 px-2 my-2 bg-gray text-white text-sm font-medium rounded-sm whitespace-no-wrap"

@@ -6,8 +6,8 @@
           <nuxt-link class="mr-1" :to="switchLocalePath('nl')">NL</nuxt-link>/
           <nuxt-link :to="switchLocalePath('de')">DE</nuxt-link>
         </div>
-        <nuxt-link class="ml-2" v-for="route of routes" :key="route.name" :to="localePath(route.route)">{{
-          route.name
+        <nuxt-link class="ml-2" v-for="route of routes" :key="route.keyName" :to="localePath(route.route)">{{
+          $t(`header.${route.keyName}`)
         }}</nuxt-link>
         <!--        <a href="/admin" class="ml-2" target="_blank">Admin</a>-->
       </nav>
@@ -20,8 +20,8 @@
 
 <script>
 const routes = [
-  { name: 'Kontakt', route: '/contact' },
-  { name: 'Impressum', route: '/impressum' }
+  { keyName: 'contact', route: '/contact' },
+  { keyName: 'impressum', route: '/contact' }
 ];
 
 export default {
