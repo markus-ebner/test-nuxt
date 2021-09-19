@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  async asyncData({ i18n, $content, error }) {
+  async asyncData({ $content, error }) {
     let posts;
     try {
       posts = await $content('varieties').fetch();
