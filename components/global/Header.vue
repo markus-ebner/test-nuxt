@@ -60,7 +60,7 @@
       <div v-if="open" class="sm:hidden" id="mobile-menu">
         <div class="px-2 pt-2 pb-3 space-y-1">
           <nuxt-link
-            @click="open = false"
+            @click.native="open = false"
             class="block rounded-b-none rounded-t-md px-3 py-2 text-base font-medium header-link"
             v-for="route of routes"
             :key="route.keyName"
