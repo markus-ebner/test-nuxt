@@ -29,6 +29,7 @@ i18n:
 collections:
   - label: "Site settings"
     name: "site"
+    i18n: true
     files:
       - label: "Info"
         name: "info"
@@ -61,6 +62,7 @@ collections:
             widget: string,
             hint: "This is used for contacting you via phone",
           }
+          - { label: "Body", name: "siteStartBody", widget: "markdown", required: false, i18n: true }
   - name: "news"
     label: "News"
     folder: "content/news"
