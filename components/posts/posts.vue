@@ -103,7 +103,11 @@ export default {
 .preview-img {
   @apply w-full object-cover mt-1;
   max-height: 100px;
-  max-width: 200px;
   border-top: 3px solid var(--color-primary-200);
+}
+@screen sm {
+  .preview-img {
+    max-width: 200px;
+  }
 }
 </style>
