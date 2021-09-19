@@ -29,12 +29,12 @@ i18n:
 collections:
   - label: "Site settings"
     name: "site"
-    i18n: true
     files:
       - label: "Info"
         name: "info"
         file: "content/site/info.json"
         format: "json"
+        i18n: true
         editor:
           preview: false
         fields:
