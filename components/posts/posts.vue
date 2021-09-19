@@ -1,13 +1,13 @@
 <template>
   <ul v-if="posts.length > 0" class="cards">
     <li v-for="(post, index) in posts" :key="index">
-      <nuxt-link :to="localePath({ path: `${postType}/${post.slug}` })" class="card card--clickable">
+      <nuxt-link :to="localePath({ path: `${postType}/${post.slug}` })" class="card card--clickable ">
         <template v-if="postType === 'varieties'">
           <span class="flex-1">
             <h3 class="card-title">{{ post.title }}</h3>
             <p class="mt-2">{{ post.description }}</p>
           </span>
-          <img v-if="post.cover" class="cover-image" :src="post.cover" />
+          <img v-if="post.cover" class="preview-img" :src="post.cover" />
         </template>
 
         <template v-else>
@@ -99,3 +99,11 @@ export default {
   }
 };
 </script>
+<style scoped lang="postcss">
+.preview-img {
+  @apply w-full object-cover mt-1;
+  max-height: 100px;
+  max-width: 200px;
+  border-top: 3px solid var(--color-primary-200);
+}
+</style>
