@@ -21,7 +21,7 @@
 <script>
 const routes = [
   { keyName: 'contact', route: '/contact' },
-  { keyName: 'impressum', route: '/contact' }
+  { keyName: 'impressum', route: '/impressum' }
 ];
 
 export default {
