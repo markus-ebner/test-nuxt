@@ -1,5 +1,6 @@
 ---
 title: Over ons
+description: Wie zijn we?
 cover: /img/FriedlacherKirchbichl.jpg
 ---
 
