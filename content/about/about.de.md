@@ -1,7 +1,7 @@
 ---
 title: Über uns
 description: "Wer sind wir? "
-cover: /img/FriedlacherKirchbichl.jpg
+cover: /img/weingarten.jpg
 ---
 
 
