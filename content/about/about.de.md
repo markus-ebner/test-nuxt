@@ -1,7 +1,7 @@
 ---
 title: Über uns
 description: "Wer sind wir? "
-cover: /img/2021-09-26-img_6357.jpg
+cover: /img/img_2223.jpg
 ---
 
 
