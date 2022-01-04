@@ -1,6 +1,6 @@
 ---
 title: Solaris
-description: Edle Weinrebe (Vitis vinifera subsp. vinifera)
+description: Weißweintraube
 cover: /img/solaris-traube.jpg
 ---
 **Allgemeines:** 
