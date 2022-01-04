@@ -3,8 +3,16 @@ title: Souvignier Gris
 description: Edle Weinrebe (Vitis vinifera subsp. vinifera)
 cover: /img/souvignier-gris.jpeg
 ---
-* **Allgemeines**: Ist eine neu gezüchtete PilzWiderstandsfähige (PiWi) Weissweinsorte. Und ist eine Kreuzung von Cabernet Sauvignon und Bronner. Zusammengeführt in 1983 durch Norbert Becker.
-* **Traube**: Die Trauben sind mittel bis gross, wenig kompakt und in länglicher Walzenform. Die Beeren mittleren Grösse haben eine rosa Beerenhaut.
-* **Resistenz**: Die Sorte besitzt eine gute Peronosporaresistenz und eine sehr gute Resistenz gegen Oidium und Botryt
-* **Wein**: Als Wein ist die Sorte einem neutral bis leicht fruchtigen Burgundertyp vergleichbar. Im Duft zeigt die Sorte dezente Fruchtaromen nach Honigmelone, Aprikosenkonfit und Quittensaft. Geschmacklich macht sich eine feine, fruchtige Säure und zarte Gerbstoffstruktur bemerkbar, die dem gut strukturierten Weine einen nachhaltigen Abgang verleiht.
-* **Klon**: Fr 420
+**Algemeen:** 
+Souvignier Gris is een nieuw veredeld schimmelresistente (PiWi) wit wijndruif.  En is een kruising tussen Cabernet Sauvignon en Bronner. Samengevoegd in 1983 door Norbert Becker.
+
+**Druif:** 
+De druiven zijn middelgroot tot groot, niet erg compact en in een langwerpige cilindrische vorm.  De bessen van middelmatige grootte hebben een roze schil.
+
+**Weerstand:** 
+Het ras heeft een goede resistentie tegen peronospora en een zeer goede resistentie tegen oïdium en botrytis.
+
+**Wijn:** 
+Als wijn is de soort vergelijkbaar met een neutraal tot licht fruitig Bourgogne-type.  In de neus vertoont de variëteit discrete fruitaroma's van honingmeloen, gekonfijte abrikoos en kweepeer. In de mond valt een fijne, fruitige zuurgraad en een delicate tanninestructuur op, die de goed gestructureerde wijn een langdurige afdronk geven.
+
+**Kloon:** Fr 420
