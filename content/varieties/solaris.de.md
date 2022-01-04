@@ -1,7 +1,7 @@
 ---
 title: Solaris
 description: Edle Weinrebe (Vitis vinifera subsp. vinifera)
-cover: /img/solaris.jpeg
+cover: /img/solaris-traube.jpg
 ---
 
 - **Allgemeines**: Ebenfalls aus dem Jahr 1975 stammt die Sorte Solaris aus dem Sortiment van Nobert Becker. Die Kreuzungskombination ist Merling und "Gm 6493", in dessen Genetik Muskat-Ottonel verankert ist. Der Name beziehr sich auf die hervorragenden Reifeeigenschaften der Sorte. Eine frühe Reife und hohe Zuckergehalte sind typisch für diese Rebsorte.
