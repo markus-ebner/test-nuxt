@@ -1,6 +1,6 @@
 ---
 title: Souvignier Gris
-description: Edle Weinrebe (Vitis vinifera subsp. vinifera)
+description: Weißweintraube
 cover: /img/souvignier-gris.jpeg
 ---
 **Allgemeines:** 
