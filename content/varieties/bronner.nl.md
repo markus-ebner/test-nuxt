@@ -1,10 +1,10 @@
 ---
 title: Bronner
-description: Weiße Traube
-cover: /img/bronner.jpeg
+description: Witte druif
+cover: /img/bronner-traube.jpg
 ---
-* **Allgemeines:** Ist eine neu gezüchtete PilzWiderstandsfähige (PiWi) Weissweinsorte. Und ist eine Kreuzung von Merling und Gm 6494. Sie entstammt der Züchtungsarbeit Norbert Beckers in 1975. Zu Ehren des Badischen Weinpioniers und Apotheker Johann Philipp Bronner.
-* **Traube**: Die mittelgrossen Trauben sind oft geschultert und mittel bis stark bepackt. Das Traubengewicht liegt nicht selten um die 280-300 Gram.
-* **Resistenz**: sehr gute Resistenz gegen Peronospora, Oidium und Botrytis.
-* **Wein**: Die Weine des Bronners zählen eher zu den neutralen Typen. Sie Zeigen Ähnlichkeit zu Weissburgunder mit Aromen nach Birne, heimischer Aprikose und Quitte bei milder Säure. Gute Qualitäten zeichnen sich durch eine hohe Reife und ein Moderates Ertragsniveau aus.
-* **Klon**: Fr 320
+* **Algemeen**:    Dit is een nieuw veredeld schimmelresistent (PiWi) wit wijnras. Het is een kruising tussen Merling en Gm 6494 en is het resultaat van Norbert Becker's veredelingswerk in 1975 ter ere van de Badense wijnpionier en apotheker Johann Philipp Bronner.
+* **Druiventros**: De middelgrote druiven zijn vaak geschouderd en middelmatig tot sterk geclusterd. Het gewicht van de druif ligt niet zelden rond 280-300 gram.
+* **Weerstand**: Zeer goede resistentie tegen Peronospora, Oidium en Botrytis.
+* **Wijn**: De wijnen van de Bronner behoren eerder tot de neutrale types. Ze vertonen gelijkenissen met Weissburgunder met aroma's van peer, abrikoos en kweepeer met een zachte zuurgraad. Goede kwaliteiten worden gekenmerkt door een hoge rijpheid en een matig opbrengstniveau.
+* **Kloon**: Vr 320
