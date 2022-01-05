@@ -80,9 +80,10 @@ export default {
     return {
       open: false,
       routes: [
-        { keyName: 'aboutUs', route: '/about' },
-        { keyName: 'grapeVarieties', route: '/varieties' },
         { keyName: 'news', route: '/news' },
+        { keyName: 'aboutUs', route: '/about' },
+        { keyName: 'wineMaking', route: '/wine' },
+        { keyName: 'grapeVarieties', route: '/varieties' },
         { keyName: 'contact', route: '/contact' }
       ]
     };

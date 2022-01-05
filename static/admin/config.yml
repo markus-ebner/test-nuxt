@@ -62,7 +62,14 @@ collections:
             widget: string,
             hint: "This is used for contacting you via phone",
           }
-          - { label: "Body", name: "siteStartBody", widget: "markdown", required: false, i18n: true }
+          - { label: "Body", name: "siteStartBody", widget: "markdown", required: false, i18n: true },
+          - {
+            label: "Cover Image",
+            name: "cover",
+            widget: "image",
+            required: true,
+            allow_multiple: false,
+          }
   - name: "news"
     label: "News"
     folder: "content/news"
@@ -138,6 +145,43 @@ collections:
     format: "frontmatter"
     slug: "about"
     preview_path: "about"
+    fields:
+      - {
+        label: "Title",
+        name: "title",
+        widget: "string",
+        i18n: true,
+        required: true,
+      }
+      - {
+        label: "Description",
+        name: "description",
+        widget: "string",
+        i18n: true,
+        required: false,
+      }
+      - {
+        label: "Cover Image",
+        name: "cover",
+        widget: "image",
+        required: false,
+        i18n: true,
+        allow_multiple: false,
+      }
+      - {
+        label: "Content",
+        name: "body",
+        widget: "markdown",
+        i18n: true,
+        required: false,
+      }
+  - name: "wine"
+    i18n: true
+    label: "Wein machen"
+    folder: "content/wine"
+    format: "frontmatter"
+    slug: "wine"
+    preview_path: "wine"
     fields:
       - {
         label: "Title",

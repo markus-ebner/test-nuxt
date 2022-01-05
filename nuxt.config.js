@@ -161,7 +161,8 @@ export default {
             news: 'Nieuws',
             contact: 'Contact',
             grapeVarieties: 'Druivensoorten',
-            impressum: 'Bedrijfsgegevens'
+            impressum: 'Bedrijfsgegevens',
+            wineMaking: 'Wijn maken'
           },
           grapeVarieties: {
             title: 'Druivensoorten'
@@ -186,7 +187,8 @@ export default {
             news: 'News',
             contact: 'Kontakt',
             grapeVarieties: 'Rebsorten',
-            impressum: 'Impressum'
+            impressum: 'Impressum',
+            wineMaking: 'Wein machen'
           },
           grapeVarieties: {
             title: 'Rebsorten'
