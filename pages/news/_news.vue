@@ -3,7 +3,7 @@
     <section v-if="post">
       <article>
         <nav class="mb-8" aria-label="go back">
-          <router-back class="block" />
+          <router-back class="block" :to="localePath('/news')" />
         </nav>
         <h5
           v-if="post.createdAt"

@@ -152,6 +152,7 @@ export default {
       fallbackLocale: 'de',
       messages: {
         nl: {
+          back: 'teruggaan',
           home: {
             latestNews: 'Laatste nieuws',
             wineKirchbichl: 'Wijn van Friedlacher Kirchbichl'
@@ -178,6 +179,7 @@ export default {
           }
         },
         de: {
+          back: 'zurück',
           home: {
             latestNews: 'Letzte News',
             wineKirchbichl: 'Wein vom Friedlacher Kirchbichl'

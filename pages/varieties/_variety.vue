@@ -3,7 +3,7 @@
     <section v-if="post">
       <article>
         <nav class="mb-8" aria-label="go back">
-          <router-back class="block" />
+          <router-back class="block" :to="localePath('/varieties')" />
         </nav>
         <h1 class="">{{ post.title }}</h1>
         <p class="mt-1 mb-8 text-primary-600 dark:text-primary-400">{{ post.description }}</p>

@@ -6,7 +6,7 @@
         fill="currentColor"
       />
     </svg>
-    <slot>go back</slot>
+    <slot>{{ $t(`back`) }}</slot>
   </nuxt-link>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     to: {
       // ? Override with a path instead of router back
       type: String,
-      default: ''
+      required: true
     }
   }
 };
