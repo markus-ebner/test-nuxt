@@ -1,10 +1,20 @@
 ---
 title: Solaris
-description: Edle Weinrebe (Vitis vinifera subsp. vinifera)
-cover: /img/solaris.jpeg
+description: witte wijndruif
+cover: /img/solaris-traube.jpg
+gallery:
+  - /img/bronner.jpeg
 ---
-* **Allgemeines**: Ebenfalls aus dem Jahr 1975 stammt die Sorte Solaris aus dem Sortiment van Nobert Becker. Die Kreuzungskombination ist Merling und "Gm 6493", in dessen Genetik Muskat-Ottonel verankert ist. Der Name beziehr sich auf die hervorragenden Reifeeigenschaften der Sorte. Eine frühe Reife und hohe Zuckergehalte sind typisch für diese Rebsorte.
-* **Trauben**: Die Trauben sind mittelgross, bernsteinfarben in der Reife und wenig kompakt.
-* **Resistenz**: Die Sorte besitzt eine sehr gute Peronosporaresistenz, eine sehr gute Resistenz gegen Oidium und eine gute gegen Botrytis.
-* **Wein**: Die Weine zeigen sich stoffig mit fruchtiger, fein engebundener Säure. Eine ausgeprägte Fruchtigkeit nach Quitte, Mirabell, Mandel und Karamell lasst sich durch Maischestandzeit und kühle Gärung erreichen.
-* **Klon**: Fr 360
+**Algemeen:** 
+De Solaris variëteit uit de van Nobert Becker reeks dateert uit 1975. De kruisingscombinatie is Merzling met "Gm 6493", in wiens genetica Muskat-Ottonel is verankerd.  De naam verwijst naar de uitstekende rijpingskenmerken van het ras. Een vroege rijping en een hoog suikergehalte zijn typisch voor dit druivenras.
+
+**Druiven:** 
+De druiven zijn middelgroot, amberkleurig wanneer ze rijp zijn en niet erg compact.
+
+**Resistent:** 
+Het ras heeft een zeer goede resistentie tegen peronospora, een zeer goede resistentie tegen oïdium en een goede resistentie tegen botrytis.
+
+**Wijn:** 
+De wijnen zijn vol van smaak met fruitige, fijn gebonden zuren. Een uitgesproken fruitigheid van kweepeer, Mirabell, amandel en karamel kan worden bereikt door maceratie en koele gisting.
+
+**kloon:** Vr 360
