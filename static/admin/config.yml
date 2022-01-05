@@ -62,13 +62,10 @@ collections:
             widget: string,
             hint: "This is used for contacting you via phone",
           }
-          - { label: "Body", name: "siteStartBody", widget: "markdown", required: false, i18n: true },
           - {
             label: "Cover Image",
             name: "cover",
             widget: "image",
-            required: true,
-            allow_multiple: false,
           }
   - name: "news"
     label: "News"
@@ -89,6 +86,14 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false, i18n: true }
+      - {
+        label: "Cover Image",
+        name: "cover",
+        widget: "image",
+        required: false,
+        i18n: true,
+        allow_multiple: false,
+      }
   - name: "varieties"
     i18n: true
     label: "Grape varieties"
