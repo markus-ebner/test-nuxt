@@ -1,6 +1,6 @@
 ---
 title: Wein machen
-description: "Wer sind wir? "
+description: "Herstellung von Weisswein. "
 cover: /img/solaris-traube.jpg
 ---
 Wein machen
