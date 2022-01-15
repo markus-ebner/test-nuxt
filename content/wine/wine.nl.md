@@ -59,7 +59,7 @@ Na de hierboven genoemde periode de wijn analyseren op restsuiker, zuurgraad, pH
 
 **Rijping op fijne gist**
 
-Nu volgt een lange rustperiode van ten minste 6 weken, liever langer op de fijne gist op een koeke plaats. In deze periode zakt de fijne gist naar de bodem en wordt de wijn langzaam maar zeker steeds helderder. Tussentijds ruiken en proeven blijft natuurlijk belangrijk.
+Nu volgt een lange rustperiode van ten minste 6 weken, liever langer op de fijne gist op een koele plaats. In deze periode zakt de fijne gist naar de bodem en wordt de wijn langzaam maar zeker steeds helderder. Tussentijds ruiken en proeven blijft natuurlijk belangrijk.
 
 **Bottelen**
 
