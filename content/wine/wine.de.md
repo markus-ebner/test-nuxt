@@ -3,11 +3,9 @@ title: Wein machen
 description: "Herstellung von Weisswein. "
 cover: /img/2021-09-26-img_6357.jpg
 ---
-
-
 **Herstellung von Weißwein.**
 
- **Einfach?**
+**Einfach?**
 
 Wenn Sie denken, dass es einfach ist, dann muss ich Sie ein bisschen enttäuschen. Man presst einfach den Saft aus den Trauben, lässt ihn gären (der Zucker wird in Alkohol umgewandelt) und wenn die Gärung aufhört, hat man Wein. Ich wünschte, es wäre so einfach.  
 
