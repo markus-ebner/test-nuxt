@@ -1,5 +1,6 @@
 ---
-title: 19-01-2022 meten van de vrije sulfiet in de wijn
+title: Meten van de vrije sulfiet in de wijn
+description: 19-01-2022
 cover: /img/dfbefcb7-b1fb-4dfe-860e-5127adc21c3a.jpg
 ---
 ![](/img/2022-01-19-bepaling-vrije-sulfiet.jpg)
