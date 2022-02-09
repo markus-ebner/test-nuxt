@@ -1,6 +1,6 @@
 ---
-title: 16.01.2022 Visitenkarten
-description: ""
+title: Visitenkarten
+description: 16.01.2022
 cover: /img/visitekaartjes.jpg
 ---
 ![](/img/visitekaartjes.jpg)
