@@ -1,5 +1,5 @@
 ---
-title: Neues Leben am Weinberg
+title: Neues Leben am Weingarten
 description: 07.05.2022
 ---
 Die Blätter des Souvignier Gris beginnen sich zu entfalten.
