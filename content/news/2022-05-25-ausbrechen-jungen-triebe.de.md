@@ -1,5 +1,5 @@
 ---
-title: Ausbrechen jungen Triebe.
+title: Ausbrechen junger Triebe.
 description: 24.05.2022
 ---
 Heute waren Hanni und ich im Weinberg, um junge Triebe auszubrechen. Eine wichtige Arbeit, die das Wachstum und die Struktur des Weinstocks für die kommenden Monate, aber auch für die kommenden Jahre bestimmt.
