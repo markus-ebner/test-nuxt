@@ -1,7 +1,7 @@
 ---
 title: Über uns
 description: "Wer sind wir? "
-cover: /img/img_0074.jpg
+cover: /img/img_0040.jpg
 ---
 Nick und Hanni Gerretsen. Hanni eine gebürtige Kärntnerin und ich bin Niederländer. Wir wohnten und Aarbeiteten in Voorburg, eine unmittelbar an Den Haag angrenzende holländische Stadt nicht weit von der Nordsee, wo Nick geboren ist. Nach 40 Jahren Lebensmittelpunkt in Voorburg sind wir 2019 wieder nach Kärnten in Österreich gezogen. **Das Interesse zum Wein wurde bereits vor vielen Jahren geweckt.** Berufsmässig organisierten wir unter anderem Weinreisen für die Supermarktbranche und im privaten Umfeld überzeugten uns unsere französische Freunde vom edlen Tropfen. Erst der perfekte Wein macht ein genussvolles Essen vollkommen, das zelebrierten wir beinahe wöchentlich.
 
