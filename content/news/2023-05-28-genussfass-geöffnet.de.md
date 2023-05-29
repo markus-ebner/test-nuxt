@@ -1,8 +1,8 @@
 ---
-title: GenussFass geöffnet!
+title: GenussFass geöffnet !
 description: 27.05.2023
 ---
-Das GenussFass ist wieder geöffnet!
+Das GenussFass ist wieder geöffnet !
 
 Der Souvignier Gris und der Solaris 2022 sind nun alle wieder in Flaschen abgefüllt und verfügbar.
 

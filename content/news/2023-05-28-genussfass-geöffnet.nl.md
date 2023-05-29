@@ -1,8 +1,8 @@
 ---
-title: '"GenussFass" geopend!'
+title: '"GenussFass" geopend !'
 description: 27-05-2023
 ---
-Het “GenussFass” is weer geopend!
+Het “GenussFass” is weer geopend !
 
 De Souvignier Gris en de Solaris 2022 zijn nu weer allemaal gebotteld en volop verkrijgbaar.
 
