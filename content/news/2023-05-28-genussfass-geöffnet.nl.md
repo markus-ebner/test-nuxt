@@ -1,5 +1,5 @@
 ---
-title: '"GenussFass" geopend !'
+title: '"GenussFass" geopend!'
 description: 27-05-2023
 ---
 Het “GenussFass” is weer geopend !

@@ -1,5 +1,5 @@
 ---
-title: GenussFass geöffnet !
+title: GenussFass geöffnet!
 description: 27.05.2023
 ---
 Das GenussFass ist wieder geöffnet !
