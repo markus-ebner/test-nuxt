@@ -24,7 +24,7 @@ export default {
     try {
       post = await $content('varieties', params.variety).fetch();
     } catch (e) {
-      error({ message: 'Project not found' });
+      error({ message: 'Grape variety not found' });
     }
     return { post };
   }

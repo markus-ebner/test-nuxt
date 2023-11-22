@@ -97,7 +97,7 @@ collections:
   - name: "varieties"
     i18n: true
     label: "Grape varieties"
-    label_singular: "Project"
+    label_singular: "Grape variety"
     folder: "content/varieties"
     create: true
     format: "frontmatter"
