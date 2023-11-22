@@ -4,7 +4,7 @@
     <main>
       <section v-if="posts" class="w-full max-w-5xl mx-auto">
         <h1 class="title">{{ $t('news.title') }}</h1>
-        <posts post-type="news" :amount="10" />
+        <posts post-type="news" :amount="30" />
       </section>
     </main>
   </div>

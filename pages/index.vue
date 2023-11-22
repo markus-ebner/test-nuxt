@@ -9,7 +9,7 @@
 
       <section class="mt-8">
         <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">{{ $t('home.latestNews') }}</h3>
-        <posts post-type="news" :amount="1" />
+        <posts post-type="news" :amount="5" />
       </section>
     </main>
   </div>
