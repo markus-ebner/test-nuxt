@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="cover-image" :src="'/img/contact-nick.jpg'" />
+    <img class="cover-image" :src="contactInfo?.cover"  />
     <main>
       <section class="w-full max-w-5xl mx-auto">
         <h1 class="title">{{ $t('contact.title') }}</h1>
@@ -27,5 +27,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  async asyncData({ $content, error }) {
+    let contactInfo;
+    let posts;
+    try {
+      contactInfo = await $content('site').fetch();
+      console.log(contactInfo);
+    } catch (e) {
+      error({ message: 'News entries not found' });
+    }
+    return { posts, contactInfo: contactInfo[1] };
+  }
+};
 </script>

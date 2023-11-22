@@ -30,7 +30,7 @@ collections:
   - label: "Site settings"
     name: "site"
     files:
-      - label: "Info"
+      - label: "Homepage"
         name: "info"
         file: "content/site/info.json"
         format: "json"
@@ -62,6 +62,45 @@ collections:
             widget: string,
             hint: "This is used for contacting you via phone",
           }
+          - {
+            label: "Cover Image",
+            name: "cover",
+            widget: "image",
+          }
+      - label: "Contact"
+        name: "contact"
+        file: "content/site/contact.json"
+        format: "json"
+        i18n: true
+        editor:
+          preview: false
+        fields:
+          - {
+            label: "Cover Image",
+            name: "cover",
+            widget: "image",
+          }
+      - label: "News"
+        name: "news"
+        file: "content/site/news.json"
+        format: "json"
+        i18n: true
+        editor:
+          preview: false
+        fields:
+          - {
+            label: "Cover Image",
+            name: "cover",
+            widget: "image",
+          }
+      - label: "Grape varieties"
+        name: "varieties"
+        file: "content/site/varieties.json"
+        format: "json"
+        i18n: true
+        editor:
+          preview: false
+        fields:
           - {
             label: "Cover Image",
             name: "cover",
