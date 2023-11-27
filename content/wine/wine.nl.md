@@ -1,7 +1,7 @@
 ---
 title: Wijn maken
 description: Witte wijn maken.
-cover: /img/2021-09-26-img_6357.jpg
+cover: /img/2022-09-19-gisting-souvignier-gris.jpg
 ---
 **Witte wijn maken.**
 

@@ -1,7 +1,7 @@
 ---
 title: Wein machen
 description: "Herstellung von Weisswein. "
-cover: /img/2021-09-26-img_6357.jpg
+cover: /img/2022-09-19-gisting-souvignier-gris.jpg
 ---
 **Herstellung von Weißwein.**
 
